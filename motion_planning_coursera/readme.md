@@ -47,7 +47,7 @@ py -3.6 -m module_7
 ```
 
 ### Results
-{{< youtube JVbKd_WAWCQ >}}
+[![Video](https://youtu.be/JVbKd_WAWCQ)](https://youtu.be/JVbKd_WAWCQ)
 - Trajectory: <br>
   ![trajectory](./controller_output/trajectory.png)
 - Speeds: <br>
