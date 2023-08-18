@@ -27,6 +27,17 @@ PID longitudinal controller + Stanley lateral controller  (```controller2d.py```
 py -3.6 -m pip install numpy --user
 py -3.6 -m pip install -r <Path-to>\CarlaSimulator\requirements.txt --user
 ```
+**Notice:** There are version issues in the default requirement.txt file, modify its content to
+```
+Pillow>=3.1.2
+numpy>=1.14.5
+protobuf==3.19.6
+pygame>=1.9.4
+matplotlib==2.2.5
+future>=0.16.0
+scipy>=0.17.0
+```
+This has been tested with Python 3.6.8
 - Test CARLA: please refer to the document in the package you just downloaded
 - Run simulation <br>
 1. Clone this repo to ```<Path-to>\CarlaSimulator\PythonClient```:<br<
@@ -47,7 +58,8 @@ py -3.6 -m module_7
 ```
 
 ### Results
-{{< youtube JVbKd_WAWCQ >}}
+[![Watch the video](https://img.youtube.com/vi/JVbKd_WAWCQ/hqdefault.jpg)](https://www.youtube.com/embed/JVbKd_WAWCQ)
+
 
 - Trajectory: <br>
   ![trajectory](./controller_output/trajectory.png)
