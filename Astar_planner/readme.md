@@ -4,15 +4,16 @@
 - Using Eclidean Heristic to find the shortest path
 
 - cost (Accumulated moving distance + euclidean heristic): <br>
-(1) successor.g: q.g + qp.g (distance between the q to successor p)
-(2) successor.h: heristic distance from successor p to the destination
+(1) successor.g: q.g + qp.g (distance between the q to successor p) <br>
+(2) successor.h: heristic distance from successor p to the destination <br>
 (3) successor.c = successor.g + successor.h
 
+- Algorithm Pseudo code:
 ```
 1.initialize open list (priority queue (minheap))
-             cloase list (2d boolean vector)
+             closed list (2d boolean vector)
              predecessors (2d vector of cell)
-    Put start point to the open list, call it q
+    Put the start point to the open list, call it q
 while (open list is not empty):
     2. pop q off open list, generate all successors
     3. for each successor:
@@ -84,4 +85,6 @@ predecessors[i][j].h = 0.0;
 
 
 ### Test
+![image](https://github.com/ZYblend/Motion_planning_and_control_demos/assets/36635562/59c59d6b-6d2d-421a-abce-2acfd3527b67) 
+![image](https://github.com/ZYblend/Motion_planning_and_control_demos/assets/36635562/5358de62-aa59-4e30-800a-ad4c57f19316)
 
