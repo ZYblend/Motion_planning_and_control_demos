@@ -36,4 +36,6 @@ regarding to **time complexity** and **space complexity**.
 [![Watch the video](https://img.youtube.com/vi/JVbKd_WAWCQ/hqdefault.jpg)](https://www.youtube.com/embed/JVbKd_WAWCQ)
 
 
-#### Contributors:
+### Contributors:
+- Yu Zheng (ZYblend)
+- Naveen Kumar Rajarajan (Naveenkumarar)
