@@ -61,6 +61,10 @@
         "queue": "cpp",
         "ranges": "cpp",
         "span": "cpp",
-        "stack": "cpp"
+        "stack": "cpp",
+        "map": "cpp",
+        "set": "cpp",
+        "sstream": "cpp",
+        "cinttypes": "cpp"
     }
 }

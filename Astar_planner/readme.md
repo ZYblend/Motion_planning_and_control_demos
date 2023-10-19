@@ -85,6 +85,5 @@ predecessors[i][j].h = 0.0;
 
 
 ### Test
-![image](https://github.com/ZYblend/Motion_planning_and_control_demos/assets/36635562/59c59d6b-6d2d-421a-abce-2acfd3527b67) 
-![image](https://github.com/ZYblend/Motion_planning_and_control_demos/assets/36635562/5358de62-aa59-4e30-800a-ad4c57f19316)
+![result](Result_fig.png) 
 
